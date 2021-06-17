@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "ehtodo",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authehtodo9162c41b",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
